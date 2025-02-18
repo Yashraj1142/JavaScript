@@ -10,6 +10,7 @@ console.log(userName);
 console.log(typeof userName);
 
 
+
 const userName2 = {
     name: "Suhana",
     isLoggedin: false
@@ -22,3 +23,14 @@ console.log(userName2.name);    //we can access the name by using dot operator.
 userName2.isLoggedin = true;
 console.log(userName2.isLoggedin);
 
+
+
+let today = new Date();
+console.log(today.getDate());
+
+
+//arrays
+let arr = ["Yash", true, 3];
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
